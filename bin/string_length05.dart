@@ -7,6 +7,16 @@
     Returns:
         total length of strings
 */
-void main() {
-  // write your code here
+int func(String s1, String s2) {
+  // print(s1.length);
+  // print(s2.length);
+  // w = s1.length + s2.length;
+  int w = s1.length;
+  int q = s2.length;
+  int e = w + q;
+  return e;
 }
+
+void main() {
+  print(func("code", "python"));
+} 
